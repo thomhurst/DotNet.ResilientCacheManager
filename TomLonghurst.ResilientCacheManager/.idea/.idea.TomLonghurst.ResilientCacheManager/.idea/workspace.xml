@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="958cfdc3-6565-49b7-bba3-8b02b26ed6d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TomLonghurst.ResilientCache.UnitTests/Fakes/IFakeLogger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TomLonghurst.ResilientCache.UnitTests/Fakes/IFakeRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TomLonghurst.ResilientCache.UnitTests/ResilientCacheManagerTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TomLonghurst.ResilientCache.UnitTests/TomLonghurst.ResilientCache.UnitTests.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TomLonghurst.ResilientCache/IResilientCacheManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TomLonghurst.ResilientCache/ResilientCacheManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TomLonghurst.ResilientCache/TomLonghurst.ResilientCache.csproj" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/TomLonghurst.ResilientCache/IResilientCacheManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TomLonghurst.ResilientCache.UnitTests/Fakes/IFakeRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TomLonghurst.ResilientCache/ResilientCacheManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TomLonghurst.ResilientCache.UnitTests/Fakes/IFakeLogger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TomLonghurst.ResilientCache.UnitTests/ResilientCacheManagerTests.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/TomLonghurst.ResilientCacheManager/ResilientCacheManager.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.ResilientCacheManager/IResilientCacheManager.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.ResilientCacheManager.UnitTests/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.ResilientCacheManager.UnitTests/ILogger.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.ResilientCacheManager.UnitTests/IFakeRepository.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.ResilientCacheManager.UnitTests/ResilientCacheManagerTests.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1j8yE52aa0ZsoLec3UUzGxwRaVu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Functions" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="958cfdc3-6565-49b7-bba3-8b02b26ed6d4" name="Default Changelist" comment="" />
+      <created>1603199898595</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603199898595</updated>
+      <workItem from="1603199908585" duration="225000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="873" y="432" key="Rider.ProjectTemplateDialog.Size" timestamp="1603199945893">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="873" y="432" key="Rider.ProjectTemplateDialog.Size/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1603199945893" />
+  </component>
+</project>

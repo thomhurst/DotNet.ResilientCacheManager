@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c5f208cb-6d01-453f-bbe9-ec4e25b8115c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TomLonghurst.ResilientCache.UnitTests/Fakes/IFakeLogger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TomLonghurst.ResilientCache.UnitTests/Fakes/IFakeRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TomLonghurst.ResilientCache.UnitTests/ResilientCacheManagerTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TomLonghurst.ResilientCache.UnitTests/TomLonghurst.ResilientCache.UnitTests.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TomLonghurst.ResilientCache/IResilientCacheManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TomLonghurst.ResilientCache/ResilientCacheManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TomLonghurst.ResilientCache/TomLonghurst.ResilientCache.csproj" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/TomLonghurst.ResilientCache.UnitTests/TomLonghurst.ResilientCache.UnitTests.csproj" />
+        <option value="$PROJECT_DIR$/TomLonghurst.ResilientCache/TomLonghurst.ResilientCache.csproj" />
+        <option value="$PROJECT_DIR$/TomLonghurst.ResilientCache/ResilientCacheManager.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.ResilientCache.UnitTests/ResilientCacheManagerTests.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1j8ylvLmNSa53zAz1P5ZKDW65HY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Functions" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c5f208cb-6d01-453f-bbe9-ec4e25b8115c" name="Default Changelist" comment="" />
+      <created>1603200167406</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603200167406</updated>
+      <workItem from="1603200188500" duration="317000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
