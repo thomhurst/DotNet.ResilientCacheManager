@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 
-namespace TomLonghurst.ResilientCache
+namespace TomLonghurst.ResilientCache.Interfaces
 {
     public interface IResilientCacheManager<T>
     {

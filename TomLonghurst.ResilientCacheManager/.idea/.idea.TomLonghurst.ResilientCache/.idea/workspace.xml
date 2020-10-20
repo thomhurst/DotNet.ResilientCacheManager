@@ -19,14 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5f208cb-6d01-453f-bbe9-ec4e25b8115c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.ResilientCache.UnitTests/Fakes/IFakeLogger.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.ResilientCache.UnitTests/Fakes/IFakeRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.ResilientCache.UnitTests/ResilientCacheManagerTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.ResilientCache.UnitTests/TomLonghurst.ResilientCache.UnitTests.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.ResilientCache/IResilientCacheManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.ResilientCache/ResilientCacheManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.ResilientCache/TomLonghurst.ResilientCache.csproj" afterDir="false" />
+    <list default="true" id="c5f208cb-6d01-453f-bbe9-ec4e25b8115c" name="Default Changelist" comment="Single Item ResilientCacheManager.cs">
+      <change afterPath="$PROJECT_DIR$/TomLonghurst.ResilientCache.UnitTests/Fakes/IFakeKeyedRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TomLonghurst.ResilientCache.UnitTests/ResilientCacheManager_2Tests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TomLonghurst.ResilientCache.UnitTests/TestExceptionType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TomLonghurst.ResilientCache/Interfaces/IResilientCacheManager_2.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TomLonghurst.ResilientCache/ResilientCacheManager_2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TomLonghurst.ResilientCache/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TomLonghurst.ResilientCache/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TomLonghurst.ResilientCache/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TomLonghurst.ResilientCache/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TomLonghurst.ResilientCache.UnitTests/ResilientCacheManagerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TomLonghurst.ResilientCache.UnitTests/ResilientCacheManagerTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TomLonghurst.ResilientCache/IResilientCacheManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TomLonghurst.ResilientCache/Interfaces/IResilientCacheManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TomLonghurst.ResilientCache/ResilientCacheManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TomLonghurst.ResilientCache/ResilientCacheManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TomLonghurst.ResilientCache/TomLonghurst.ResilientCache.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TomLonghurst.ResilientCache/TomLonghurst.ResilientCache.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,13 +40,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/16.4.0/build/netcoreapp2.1/Microsoft.NET.Test.Sdk.Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/EAD492ED-454D-4EEE-B7F1-E38AB6961562/14/ImmutableInterlocked.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/TomLonghurst.ResilientCache.UnitTests/TomLonghurst.ResilientCache.UnitTests.csproj" />
         <option value="$PROJECT_DIR$/TomLonghurst.ResilientCache/TomLonghurst.ResilientCache.csproj" />
         <option value="$PROJECT_DIR$/TomLonghurst.ResilientCache/ResilientCacheManager.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.ResilientCache/IStoreApiCache.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.ResilientCache/Interfaces/IStoreApiCache.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.ResilientCache/Interfaces/IResilientCacheManager_2.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.ResilientCache.UnitTests/Fakes/IFakeKeyedRepository.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.ResilientCache.UnitTests/ResilientCacheManagerTests.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.ResilientCache/ResilientCacheManager_2.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.ResilientCache.UnitTests/ResilientCacheManager_2Tests.cs" />
       </list>
     </option>
   </component>
@@ -53,8 +67,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34995976" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30008045" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Functions" />
@@ -68,14 +90,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603200167406</updated>
-      <workItem from="1603200188500" duration="317000" />
+      <workItem from="1603200188500" duration="4504000" />
+      <workItem from="1603204801486" duration="449000" />
     </task>
+    <task id="LOCAL-00001" summary="Single Item ResilientCacheManager.cs">
+      <created>1603200532472</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603200532472</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -87,8 +118,146 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Single Item ResilientCacheManager.cs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Single Item ResilientCacheManager.cs" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="2517" height="511" key="GridCell.Tab.0.bottom" timestamp="1603204763701">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="511" key="GridCell.Tab.0.bottom/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1603204763701" />
+    <state width="2517" height="511" key="GridCell.Tab.0.center" timestamp="1603204763701">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="511" key="GridCell.Tab.0.center/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1603204763701" />
+    <state width="2517" height="511" key="GridCell.Tab.0.left" timestamp="1603204763701">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="511" key="GridCell.Tab.0.left/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1603204763701" />
+    <state width="2517" height="511" key="GridCell.Tab.0.right" timestamp="1603204763701">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="511" key="GridCell.Tab.0.right/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1603204763701" />
+    <state width="2517" height="511" key="GridCell.Tab.1.bottom" timestamp="1603204763702">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="511" key="GridCell.Tab.1.bottom/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1603204763702" />
+    <state width="2517" height="511" key="GridCell.Tab.1.center" timestamp="1603204763701">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="511" key="GridCell.Tab.1.center/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1603204763701" />
+    <state width="2517" height="511" key="GridCell.Tab.1.left" timestamp="1603204763701">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="511" key="GridCell.Tab.1.left/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1603204763701" />
+    <state width="2517" height="511" key="GridCell.Tab.1.right" timestamp="1603204763702">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="511" key="GridCell.Tab.1.right/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1603204763702" />
+    <state width="2517" height="511" key="GridCell.Tab.2.bottom" timestamp="1603204763702">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="511" key="GridCell.Tab.2.bottom/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1603204763702" />
+    <state width="2517" height="511" key="GridCell.Tab.2.center" timestamp="1603204763702">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="511" key="GridCell.Tab.2.center/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1603204763702" />
+    <state width="2517" height="511" key="GridCell.Tab.2.left" timestamp="1603204763702">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="511" key="GridCell.Tab.2.left/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1603204763702" />
+    <state width="2517" height="511" key="GridCell.Tab.2.right" timestamp="1603204763702">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="511" key="GridCell.Tab.2.right/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1603204763702" />
+    <state width="2517" height="511" key="GridCell.Tab.3.bottom" timestamp="1603204763703">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="511" key="GridCell.Tab.3.bottom/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1603204763703" />
+    <state width="2517" height="511" key="GridCell.Tab.3.center" timestamp="1603204763703">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="511" key="GridCell.Tab.3.center/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1603204763703" />
+    <state width="2517" height="511" key="GridCell.Tab.3.left" timestamp="1603204763702">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="511" key="GridCell.Tab.3.left/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1603204763702" />
+    <state width="2517" height="511" key="GridCell.Tab.3.right" timestamp="1603204763703">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="511" key="GridCell.Tab.3.right/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1603204763703" />
+    <state width="2517" height="511" key="GridCell.Tab.4.bottom" timestamp="1603204763703">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="511" key="GridCell.Tab.4.bottom/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1603204763703" />
+    <state width="2517" height="511" key="GridCell.Tab.4.center" timestamp="1603204763703">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="511" key="GridCell.Tab.4.center/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1603204763703" />
+    <state width="2517" height="511" key="GridCell.Tab.4.left" timestamp="1603204763703">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="511" key="GridCell.Tab.4.left/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1603204763703" />
+    <state width="2517" height="511" key="GridCell.Tab.4.right" timestamp="1603204763703">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="511" key="GridCell.Tab.4.right/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1603204763703" />
+    <state x="873" y="415" key="Vcs.Push.Dialog.v2" timestamp="1603200533810">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="873" y="415" key="Vcs.Push.Dialog.v2/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1603200533810" />
+    <state x="912" y="417" width="737" height="624" key="find.popup" timestamp="1603205074712">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="912" y="417" width="737" height="624" key="find.popup/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1603205074712" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/TomLonghurst.ResilientCache/ResilientCacheManager.cs</url>
+          <line>39</line>
+          <properties documentPath="D:\GitKraken\DotNet.ResilientCacheManager\TomLonghurst.ResilientCacheManager\TomLonghurst.ResilientCache\ResilientCacheManager.cs" initialLine="39">
+            <startOffsets>
+              <option value="1529" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1564" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/TomLonghurst.ResilientCache/ResilientCacheManager.cs</url>
+          <line>77</line>
+          <properties documentPath="D:\GitKraken\DotNet.ResilientCacheManager\TomLonghurst.ResilientCacheManager\TomLonghurst.ResilientCache\ResilientCacheManager.cs" initialLine="77">
+            <startOffsets>
+              <option value="2770" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2825" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/TomLonghurst.ResilientCache/ResilientCacheManager.cs</url>
+          <line>80</line>
+          <properties documentPath="D:\GitKraken\DotNet.ResilientCacheManager\TomLonghurst.ResilientCacheManager\TomLonghurst.ResilientCache\ResilientCacheManager.cs" initialLine="80">
+            <startOffsets>
+              <option value="2877" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2912" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

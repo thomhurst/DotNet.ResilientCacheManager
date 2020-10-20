@@ -16,7 +16,10 @@
       <e p="packages" t="ExcludeRecursive" />
       <e p="TomLonghurst.ResilientCache" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
-        <e p="IResilientCacheManager.cs" t="Include" />
+        <e p="Interfaces" t="Include">
+          <e p="IResilientCacheManager.cs" t="Include" />
+          <e p="IResilientCacheManager_2.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netstandard2.0" t="Include">
@@ -25,12 +28,14 @@
           </e>
         </e>
         <e p="ResilientCacheManager.cs" t="Include" />
+        <e p="ResilientCacheManager_2.cs" t="Include" />
         <e p="TomLonghurst.ResilientCache.csproj" t="IncludeRecursive" />
       </e>
       <e p="TomLonghurst.ResilientCache.sln" t="IncludeFlat" />
       <e p="TomLonghurst.ResilientCache.UnitTests" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Fakes" t="Include">
+          <e p="IFakeKeyedRepository.cs" t="Include" />
           <e p="IFakeLogger.cs" t="Include" />
           <e p="IFakeRepository.cs" t="Include" />
         </e>
@@ -41,7 +46,9 @@
             </e>
           </e>
         </e>
+        <e p="ResilientCacheManager_2Tests.cs" t="Include" />
         <e p="ResilientCacheManagerTests.cs" t="Include" />
+        <e p="TestExceptionType.cs" t="Include" />
         <e p="TomLonghurst.ResilientCache.UnitTests.csproj" t="IncludeRecursive" />
       </e>
     </e>

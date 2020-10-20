@@ -82,7 +82,7 @@ namespace TomLonghurst.ResilientCache.UnitTests
             var tcs = new TaskCompletionSource<string>();
             _fakeRepository.Setup(x => x.Get()).Returns(() =>
             {
-                tcs.SetResult("Blah");
+                tcs.TrySetResult("Blah");
                 return tcs.Task;
             });
             
@@ -104,7 +104,7 @@ namespace TomLonghurst.ResilientCache.UnitTests
             var testReadyToContinueTask = new TaskCompletionSource<string>();
             _fakeRepository.Setup(x => x.Get()).Returns(() =>
             {
-                testReadyToContinueTask.SetResult("Blah");
+                testReadyToContinueTask.TrySetResult("Blah");
                 return currentlyRefreshingCacheTask.Task;
             });
 
@@ -137,7 +137,7 @@ namespace TomLonghurst.ResilientCache.UnitTests
                 new ResilientCacheManager<string>(TimeSpan.FromMilliseconds(1), () =>
                 {
                     var task = _fakeRepository.Object.Get();
-                    tcs.SetResult("Blah");
+                    tcs.TrySetResult("Blah");
                     return task;
                 }, null);
             
@@ -154,7 +154,7 @@ namespace TomLonghurst.ResilientCache.UnitTests
             _fakeRepository.Setup(x => x.Get()).Returns(pendingTaskSource.Task);
 
             var manager = new ResilientCacheManager<string>(TimeSpan.FromMinutes(1),
-                () => _fakeRepository.Object.Get(), e => _logger.Object.WriteException(e));
+                _fakeRepository.Object.Get, e => _logger.Object.WriteException(e));
 
             var task1 = manager.GetValue();
             var task2 = manager.GetValue();
@@ -199,7 +199,7 @@ namespace TomLonghurst.ResilientCache.UnitTests
 
         private Func<Task<string>> GetAlwaysSuccessfulDelegate()
         {
-            _fakeRepository.Setup(x => x.Get()).ReturnsAsync("Blah");
+            _fakeRepository.Setup(x => x.Get()).ReturnsAsync("InitialValue");
             return () => _fakeRepository.Object.Get();
         }
 
@@ -220,11 +220,5 @@ namespace TomLonghurst.ResilientCache.UnitTests
                 _fakeRepository.Setup(x => x.Get()).Returns(Task.FromException<string>(new Exception()));
             }
         }
-    }
-
-    public enum TestExceptionType
-    {
-        RawException,
-        ExceptionWrappedInTask
     }
 }

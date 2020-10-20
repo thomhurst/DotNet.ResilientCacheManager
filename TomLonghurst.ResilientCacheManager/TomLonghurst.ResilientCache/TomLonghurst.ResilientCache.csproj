@@ -5,4 +5,8 @@
         <RootNamespace>TomLonghurst.ResilientCache</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="System.Collections.Immutable" Version="1.7.1" />
+    </ItemGroup>
+
 </Project>
